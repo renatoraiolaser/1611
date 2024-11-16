@@ -1,0 +1,137 @@
+/* Ajustes de responsividade */
+@media screen and (max-width: 768px) {
+    /* Slogan */
+    .slogan-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px; /* Adiciona espaçamento interno */
+    }
+
+    .advogada-foto {
+        width: 150px; /* Reduz o tamanho da foto */
+        height: 150px; /* Mantém a proporção */
+    }
+
+    .slogan-text h1 {
+        font-size: 2.5em; /* Reduz tamanho do texto */
+    }
+
+    .slogan-text h2 {
+        font-size: 2em; /* Reduz tamanho do subtítulo */
+    }
+
+    /* Navegação */
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 1em; /* Texto menor para caber melhor */
+        padding: 8px 10px; /* Reduz espaçamento interno */
+    }
+
+    /* Slider */
+    .slider-content {
+        height: auto; /* Ajusta à altura do conteúdo */
+        padding: 20px; /* Adiciona espaçamento interno */
+    }
+
+    .slide img {
+        width: 80px; /* Reduz tamanho da imagem */
+        margin-bottom: 10px;
+    }
+
+    .slide h3 {
+        font-size: 1.5em; /* Texto menor */
+    }
+
+    .slide p {
+        font-size: 1em; /* Ajuste proporcional do texto */
+        padding: 0 10px; /* Reduz espaçamento lateral */
+    }
+
+    /* Rodapé */
+    .footer-container {
+        flex-direction: column; /* Empilha o conteúdo */
+        gap: 20px;
+        text-align: center; /* Centraliza tudo */
+        padding: 20px;
+    }
+
+    .footer-logo img {
+        margin-bottom: 10px;
+        max-width: 150px; /* Reduz tamanho do logo */
+    }
+
+    .footer-contacts {
+        text-align: center;
+        font-size: 0.9em; /* Texto menor no rodapé */
+    }
+
+    /* Formulário de Agendamento */
+    .agendamento-form {
+        padding: 20px; /* Reduz o preenchimento interno */
+        font-size: 0.9em; /* Reduz tamanho do texto */
+    }
+
+    .agendamento-form input, 
+    .agendamento-form textarea, 
+    .agendamento-form select {
+        font-size: 0.9em; /* Campos menores */
+        padding: 8px; /* Reduz altura dos campos */
+    }
+
+    .agendamento-form h2 {
+        font-size: 1.5em; /* Título menor */
+    }
+
+    .agendamento-form button {
+        font-size: 1em; /* Botão menor */
+        padding: 10px 20px; /* Reduz preenchimento */
+    }
+}
+
+/* Ajustes para telas muito pequenas (exemplo: 480px ou menos) */
+@media screen and (max-width: 480px) {
+    .slogan-text h1 {
+        font-size: 2em; /* Título menor para telas muito pequenas */
+    }
+
+    .slogan-text h2 {
+        font-size: 1.5em; /* Subtítulo ajustado */
+    }
+
+    nav ul li a {
+        font-size: 0.9em; /* Reduz ainda mais o tamanho do texto */
+        padding: 5px 8px; /* Menor espaçamento */
+    }
+
+    .slider-content {
+        padding: 10px; /* Reduz espaço interno */
+    }
+
+    .slide h3 {
+        font-size: 1.2em; /* Texto menor */
+    }
+
+    .slide p {
+        font-size: 0.9em; /* Texto menor */
+    }
+
+    .footer-logo img {
+        max-width: 120px; /* Reduz ainda mais o logo */
+    }
+
+    .agendamento-form {
+        font-size: 0.8em; /* Reduz fontes gerais do formulário */
+        padding: 15px;
+    }
+
+    .agendamento-form button {
+        font-size: 0.9em; /* Botão menor */
+    }
+}
